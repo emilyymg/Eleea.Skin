@@ -58,11 +58,35 @@
     <Compile Include="IniciarSesion.Designer.cs">
       <DependentUpon>IniciarSesion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaPrincipal.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="PantallaPrincipal.Designer.cs">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PielGrasa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PielGrasa.Designer.cs">
+      <DependentUpon>PielGrasa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PielMixta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PielMixta.Designer.cs">
+      <DependentUpon>PielMixta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PielSeca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PielSeca.Designer.cs">
+      <DependentUpon>PielSeca.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,8 +102,20 @@
     <EmbeddedResource Include="IniciarSesion.resx">
       <DependentUpon>IniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaPrincipal.resx">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PielGrasa.resx">
+      <DependentUpon>PielGrasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PielMixta.resx">
+      <DependentUpon>PielMixta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PielSeca.resx">
+      <DependentUpon>PielSeca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Captura de pantalla 2025-11-29 003951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicioEleea1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

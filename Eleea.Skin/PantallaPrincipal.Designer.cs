@@ -38,7 +38,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(230)))), ((int)(((byte)(216)))));
-            this.panel1.Location = new System.Drawing.Point(136, 656);
+            this.panel1.Location = new System.Drawing.Point(136, 605);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1267, 31);
             this.panel1.TabIndex = 4;
@@ -48,10 +48,10 @@
             this.btnIniciarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(230)))), ((int)(((byte)(216)))));
             this.btnIniciarS.FlatAppearance.BorderSize = 0;
             this.btnIniciarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciarS.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarS.Location = new System.Drawing.Point(489, 717);
+            this.btnIniciarS.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarS.Location = new System.Drawing.Point(518, 671);
             this.btnIniciarS.Name = "btnIniciarS";
-            this.btnIniciarS.Size = new System.Drawing.Size(168, 40);
+            this.btnIniciarS.Size = new System.Drawing.Size(174, 40);
             this.btnIniciarS.TabIndex = 8;
             this.btnIniciarS.Text = "INICIAR SESION";
             this.btnIniciarS.UseVisualStyleBackColor = false;
@@ -62,10 +62,10 @@
             this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(230)))), ((int)(((byte)(216)))));
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(905, 717);
+            this.btnRegistrar.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(873, 671);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(168, 40);
+            this.btnRegistrar.Size = new System.Drawing.Size(185, 40);
             this.btnRegistrar.TabIndex = 9;
             this.btnRegistrar.Text = "REGISTRARSE";
             this.btnRegistrar.UseVisualStyleBackColor = false;
@@ -73,10 +73,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Eleea.Skin.Properties.Resources.inicioEleea;
+            this.pictureBox1.Image = global::Eleea.Skin.Properties.Resources.inicioEleea1;
             this.pictureBox1.Location = new System.Drawing.Point(136, 20);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1267, 603);
+            this.pictureBox1.Size = new System.Drawing.Size(1267, 546);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -91,7 +91,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PantallaPrincipal";
-            this.Size = new System.Drawing.Size(1535, 786);
+            this.Size = new System.Drawing.Size(1535, 756);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

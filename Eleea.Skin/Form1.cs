@@ -60,5 +60,35 @@ namespace Eleea.Skin
                 }
             }
         }
+
+        private void lblInicio_Click(object sender, EventArgs e)
+        {
+            CargarUC(new Inicio());
+        }
+
+        private void lblCategorias_Click(object sender, EventArgs e)
+        {
+            pnlCategorias.Visible = !pnlCategorias.Visible;
+        }
+
+        private void lblPielSeca_Click(object sender, EventArgs e)
+        {
+            CargarUC(new PielSeca());
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            CargarUC(new PantallaPrincipal());
+        }
+
+        private void lblPielGrasa_Click(object sender, EventArgs e)
+        {
+            CargarUC(new PielGrasa());
+        }
+
+        private void lblPielMixta_Click(object sender, EventArgs e)
+        {
+            CargarUC(new PielMixta());
+        }
     }
 }
