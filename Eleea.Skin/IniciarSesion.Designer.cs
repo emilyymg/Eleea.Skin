@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.txtContrasena = new System.Windows.Forms.TextBox();
+            this.txtContra = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnIniciarS = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Eleea.Skin.Properties.Resources.Captura_de_pantalla_2025_11_28_234541;
-            this.pictureBox1.Location = new System.Drawing.Point(474, 118);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(695, 495);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // txtCorreo
             // 
@@ -56,17 +46,21 @@
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(336, 36);
             this.txtCorreo.TabIndex = 2;
+            this.txtCorreo.Enter += new System.EventHandler(this.txtCorreo_Enter);
+            this.txtCorreo.Leave += new System.EventHandler(this.txtCorreo_Leave);
             // 
-            // txtContrasena
+            // txtContra
             // 
-            this.txtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContrasena.Font = new System.Drawing.Font("Candara Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContrasena.Location = new System.Drawing.Point(647, 495);
-            this.txtContrasena.Margin = new System.Windows.Forms.Padding(0);
-            this.txtContrasena.Multiline = true;
-            this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(336, 36);
-            this.txtContrasena.TabIndex = 3;
+            this.txtContra.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtContra.Font = new System.Drawing.Font("Candara Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContra.Location = new System.Drawing.Point(647, 495);
+            this.txtContra.Margin = new System.Windows.Forms.Padding(0);
+            this.txtContra.Multiline = true;
+            this.txtContra.Name = "txtContra";
+            this.txtContra.Size = new System.Drawing.Size(336, 36);
+            this.txtContra.TabIndex = 3;
+            this.txtContra.Enter += new System.EventHandler(this.txtContra_Enter);
+            this.txtContra.Leave += new System.EventHandler(this.txtContra_Leave);
             // 
             // panel1
             // 
@@ -88,6 +82,17 @@
             this.btnIniciarS.TabIndex = 9;
             this.btnIniciarS.Text = "INICIAR SESION";
             this.btnIniciarS.UseVisualStyleBackColor = false;
+            this.btnIniciarS.Click += new System.EventHandler(this.btnIniciarS_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Eleea.Skin.Properties.Resources.Captura_de_pantalla_2025_11_28_234541;
+            this.pictureBox1.Location = new System.Drawing.Point(474, 118);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(695, 495);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // IniciarSesion
             // 
@@ -96,7 +101,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.btnIniciarS);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.txtContrasena);
+            this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.pictureBox1);
             this.Name = "IniciarSesion";
@@ -110,7 +115,7 @@
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtCorreo;
-        private System.Windows.Forms.TextBox txtContrasena;
+        private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnIniciarS;
     }

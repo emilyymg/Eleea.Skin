@@ -85,6 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnIniciarS);
             this.Controls.Add(this.panel1);

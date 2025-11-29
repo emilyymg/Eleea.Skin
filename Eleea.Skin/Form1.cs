@@ -12,6 +12,8 @@ namespace Eleea.Skin
 {
     public partial class FrmTienda : Form
     {
+        bool searchOpen = false;
+        int maxWidth = 200;  // ancho final del buscador
         public FrmTienda()
         {
             InitializeComponent();
@@ -23,10 +25,40 @@ namespace Eleea.Skin
             pnlContenido.Controls.Add(uc);       // Agrega el nuevo control
         }
 
-        private void lblInicio_Click(object sender, EventArgs e)
+        private void FrmTienda_Load(object sender, EventArgs e)
         {
             CargarUC(new PantallaPrincipal());
         }
-        
+        private void pcLupa_Click(object sender, EventArgs e)
+        {
+            searchOpen = !searchOpen;
+            timer1.Start();
+
+        }
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            if (searchOpen)
+            {
+                txtBuscar.Visible = true; // 🔹 aparecer cuando se abre
+
+                if (txtBuscar.Width < maxWidth)
+                    txtBuscar.Width += 20;
+                else
+                {
+                    timer1.Stop();
+                    txtBuscar.Focus();
+                }
+            }
+            else
+            {
+                if (txtBuscar.Width > 0)
+                    txtBuscar.Width -= 20;
+                else
+                {
+                    txtBuscar.Visible = false; // 🔹 esconder cuando llegue a 0
+                    timer1.Stop();
+                }
+            }
+        }
     }
 }
