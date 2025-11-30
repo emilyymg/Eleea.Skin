@@ -75,6 +75,9 @@ namespace Eleea.Skin
         {
             CargarUC(new PielSeca());
         }
+
+        
+
         private void lblPielGrasa_Click(object sender, EventArgs e)
         {
             CargarUC(new PielGrasa());
@@ -85,18 +88,9 @@ namespace Eleea.Skin
             CargarUC(new PielMixta());
         }
 
-        private void pcCarrito_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            CargarUC(new Carrito());
+
         }
-    }
-    public class ProductoCarrito
-    {
-        public string NombreProducto { get; set; }
-        public decimal Precio { get; set; }
-        public string RutaImagen { get; set; }
-        public int Cantidad { get; set; }
-        // Propiedad calculada para el subtotal
-        public decimal Subtotal => Precio * Cantidad;
     }
 }

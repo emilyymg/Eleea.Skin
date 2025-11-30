@@ -158,7 +158,7 @@
             this.pcCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcCarrito.TabIndex = 12;
             this.pcCarrito.TabStop = false;
-            this.pcCarrito.Click += new System.EventHandler(this.pcCarrito_Click);
+            
             // 
             // lblCategorias
             // 
