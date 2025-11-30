@@ -89,46 +89,238 @@ namespace Eleea.Skin
         private void btncar3_Click(object sender, EventArgs e)
         {
 
+            string nombreProducto = "CeraVe Limpiador Hidratante";
+            decimal precioProducto = 241m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
+
         }
 
         private void btncar4_Click(object sender, EventArgs e)
         {
+
+            string nombreProducto = "Avène Cleanance Gel";
+            decimal precioProducto = 127m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
 
         }
 
         private void btncar5_Click(object sender, EventArgs e)
         {
 
+            string nombreProducto = "CeraVe Limpiador Espumoso";
+            decimal precioProducto = 180m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
+
         }
 
         private void pictureBox19_Click(object sender, EventArgs e)
         {
+
+            string nombreProducto = "La Roche-Posay Hydraphase";
+            decimal precioProducto = 300m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
 
         }
 
         private void btncar8_Click(object sender, EventArgs e)
         {
 
+            string nombreProducto = "Acniben Cleanser";
+            decimal precioProducto = 406m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
         }
 
         private void btncar9_Click(object sender, EventArgs e)
         {
+
+            string nombreProducto = "Pond's Sunscreen 50";
+            decimal precioProducto = 111m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
 
         }
 
         private void btncar10_Click(object sender, EventArgs e)
         {
 
+            string nombreProducto = "Garnier Limpiador Lemon";
+            decimal precioProducto = 235m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
+
         }
 
         private void btncar11_Click(object sender, EventArgs e)
         {
+
+            string nombreProducto = "Cetaphil Optimal Hydration";
+            decimal precioProducto = 665m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
 
         }
 
         private void btncar12_Click(object sender, EventArgs e)
         {
 
+            string nombreProducto = "Bioderma White Objective";
+            decimal precioProducto = 160m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+            );
+
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            string nombreProducto = "CeraVe Crema Hidratante Pote";
+            decimal precioProducto = 339m;
+
+
+            Producto nuevoProducto = new Producto
+            {
+                Nombre = nombreProducto,
+                Precio = precioProducto
+            };
+
+
+            carritoDeCompras.Add(nuevoProducto);
+
+
+            MessageBox.Show(
+                $"¡Se ha agregado {nuevoProducto.Nombre} (Precio: ${nuevoProducto.Precio:F2}) a tu carrito!",
+                "Producto Agregado con Éxito"
+                 );
         }
     }
 }
