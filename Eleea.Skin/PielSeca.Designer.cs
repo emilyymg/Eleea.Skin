@@ -383,6 +383,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PielSeca";
             this.Size = new System.Drawing.Size(1151, 614);
+            this.Load += new System.EventHandler(this.PielSeca_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btncar8)).EndInit();
