@@ -93,7 +93,7 @@ namespace Eleea.Skin.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DefaultImage {
+        public static System.Drawing.Bitmap DefaultImage {
             get {
                 object obj = ResourceManager.GetObject("cerave-serum-antiimperfecciones-envase-y-dosificador-960", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace Eleea.Skin.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lupa {
+        public static System.Drawing.Bitmap lupa {
             get {
                 object obj = ResourceManager.GetObject("lupa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
