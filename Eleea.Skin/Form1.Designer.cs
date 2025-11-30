@@ -31,24 +31,24 @@
             this.components = new System.ComponentModel.Container();
             this.pnlContenido = new System.Windows.Forms.Panel();
             this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.pnlCategorias = new System.Windows.Forms.Panel();
+            this.lblPielMixta = new System.Windows.Forms.Label();
+            this.lblPielGrasa = new System.Windows.Forms.Label();
+            this.lblPielSeca = new System.Windows.Forms.Label();
+            this.pcPerfil = new System.Windows.Forms.PictureBox();
+            this.pcLupa = new System.Windows.Forms.PictureBox();
+            this.pcCarrito = new System.Windows.Forms.PictureBox();
             this.lblCategorias = new System.Windows.Forms.Label();
             this.lblTienda = new System.Windows.Forms.Label();
             this.lblInicio = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtBuscar = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.pnlCategorias = new System.Windows.Forms.Panel();
-            this.lblPielSeca = new System.Windows.Forms.Label();
-            this.lblPielGrasa = new System.Windows.Forms.Label();
-            this.lblPielMixta = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pcLupa = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlContenedor.SuspendLayout();
             this.pnlCategorias.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcPerfil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLupa)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCarrito)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlContenido
@@ -63,9 +63,9 @@
             this.pnlContenedor.BackColor = System.Drawing.Color.White;
             this.pnlContenedor.Controls.Add(this.txtBuscar);
             this.pnlContenedor.Controls.Add(this.pnlCategorias);
-            this.pnlContenedor.Controls.Add(this.pictureBox4);
+            this.pnlContenedor.Controls.Add(this.pcPerfil);
             this.pnlContenedor.Controls.Add(this.pcLupa);
-            this.pnlContenedor.Controls.Add(this.pictureBox2);
+            this.pnlContenedor.Controls.Add(this.pcCarrito);
             this.pnlContenedor.Controls.Add(this.lblCategorias);
             this.pnlContenedor.Controls.Add(this.lblTienda);
             this.pnlContenedor.Controls.Add(this.lblInicio);
@@ -74,6 +74,91 @@
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(1535, 142);
             this.pnlContenedor.TabIndex = 1;
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.BackColor = System.Drawing.Color.White;
+            this.txtBuscar.Font = new System.Drawing.Font("Candara Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(1227, 83);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(0);
+            this.txtBuscar.Multiline = true;
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(275, 34);
+            this.txtBuscar.TabIndex = 12;
+            this.txtBuscar.Visible = false;
+            // 
+            // pnlCategorias
+            // 
+            this.pnlCategorias.Controls.Add(this.lblPielMixta);
+            this.pnlCategorias.Controls.Add(this.lblPielGrasa);
+            this.pnlCategorias.Controls.Add(this.lblPielSeca);
+            this.pnlCategorias.Location = new System.Drawing.Point(411, 29);
+            this.pnlCategorias.Name = "pnlCategorias";
+            this.pnlCategorias.Size = new System.Drawing.Size(127, 88);
+            this.pnlCategorias.TabIndex = 15;
+            this.pnlCategorias.Visible = false;
+            // 
+            // lblPielMixta
+            // 
+            this.lblPielMixta.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPielMixta.Location = new System.Drawing.Point(3, 60);
+            this.lblPielMixta.Name = "lblPielMixta";
+            this.lblPielMixta.Size = new System.Drawing.Size(121, 28);
+            this.lblPielMixta.TabIndex = 13;
+            this.lblPielMixta.Text = "PIEL MIXTA";
+            this.lblPielMixta.Click += new System.EventHandler(this.lblPielMixta_Click);
+            // 
+            // lblPielGrasa
+            // 
+            this.lblPielGrasa.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPielGrasa.Location = new System.Drawing.Point(3, 33);
+            this.lblPielGrasa.Name = "lblPielGrasa";
+            this.lblPielGrasa.Size = new System.Drawing.Size(121, 27);
+            this.lblPielGrasa.TabIndex = 12;
+            this.lblPielGrasa.Text = "PIEL GRASA";
+            this.lblPielGrasa.Click += new System.EventHandler(this.lblPielGrasa_Click);
+            // 
+            // lblPielSeca
+            // 
+            this.lblPielSeca.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPielSeca.Location = new System.Drawing.Point(3, 5);
+            this.lblPielSeca.Name = "lblPielSeca";
+            this.lblPielSeca.Size = new System.Drawing.Size(104, 28);
+            this.lblPielSeca.TabIndex = 11;
+            this.lblPielSeca.Text = "PIEL SECA";
+            this.lblPielSeca.Click += new System.EventHandler(this.lblPielSeca_Click);
+            // 
+            // pcPerfil
+            // 
+            this.pcPerfil.Image = global::Eleea.Skin.Properties.Resources.usuario;
+            this.pcPerfil.Location = new System.Drawing.Point(1405, 43);
+            this.pcPerfil.Name = "pcPerfil";
+            this.pcPerfil.Size = new System.Drawing.Size(39, 39);
+            this.pcPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcPerfil.TabIndex = 14;
+            this.pcPerfil.TabStop = false;
+            // 
+            // pcLupa
+            // 
+            this.pcLupa.Image = global::Eleea.Skin.Properties.Resources.lupa;
+            this.pcLupa.Location = new System.Drawing.Point(1257, 41);
+            this.pcLupa.Name = "pcLupa";
+            this.pcLupa.Size = new System.Drawing.Size(39, 39);
+            this.pcLupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcLupa.TabIndex = 13;
+            this.pcLupa.TabStop = false;
+            this.pcLupa.Click += new System.EventHandler(this.pcLupa_Click);
+            // 
+            // pcCarrito
+            // 
+            this.pcCarrito.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.pcCarrito.Location = new System.Drawing.Point(1326, 43);
+            this.pcCarrito.Name = "pcCarrito";
+            this.pcCarrito.Size = new System.Drawing.Size(39, 39);
+            this.pcCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcCarrito.TabIndex = 12;
+            this.pcCarrito.TabStop = false;
+            
             // 
             // lblCategorias
             // 
@@ -108,101 +193,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Classy Vogue", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(636, 29);
+            this.label1.Location = new System.Drawing.Point(671, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(273, 53);
             this.label1.TabIndex = 9;
             this.label1.Text = "ELEEA SKIN";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // txtBuscar
-            // 
-            this.txtBuscar.BackColor = System.Drawing.Color.White;
-            this.txtBuscar.Font = new System.Drawing.Font("Candara Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(1227, 83);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(0);
-            this.txtBuscar.Multiline = true;
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(275, 34);
-            this.txtBuscar.TabIndex = 12;
-            this.txtBuscar.Visible = false;
+            
             // 
             // timer1
             // 
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
-            // pnlCategorias
-            // 
-            this.pnlCategorias.Controls.Add(this.lblPielMixta);
-            this.pnlCategorias.Controls.Add(this.lblPielGrasa);
-            this.pnlCategorias.Controls.Add(this.lblPielSeca);
-            this.pnlCategorias.Location = new System.Drawing.Point(411, 29);
-            this.pnlCategorias.Name = "pnlCategorias";
-            this.pnlCategorias.Size = new System.Drawing.Size(127, 88);
-            this.pnlCategorias.TabIndex = 15;
-            this.pnlCategorias.Visible = false;
-            // 
-            // lblPielSeca
-            // 
-            this.lblPielSeca.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPielSeca.Location = new System.Drawing.Point(3, 5);
-            this.lblPielSeca.Name = "lblPielSeca";
-            this.lblPielSeca.Size = new System.Drawing.Size(104, 28);
-            this.lblPielSeca.TabIndex = 11;
-            this.lblPielSeca.Text = "PIEL SECA";
-            this.lblPielSeca.Click += new System.EventHandler(this.lblPielSeca_Click);
-            // 
-            // lblPielGrasa
-            // 
-            this.lblPielGrasa.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPielGrasa.Location = new System.Drawing.Point(3, 33);
-            this.lblPielGrasa.Name = "lblPielGrasa";
-            this.lblPielGrasa.Size = new System.Drawing.Size(121, 27);
-            this.lblPielGrasa.TabIndex = 12;
-            this.lblPielGrasa.Text = "PIEL GRASA";
-            this.lblPielGrasa.Click += new System.EventHandler(this.lblPielGrasa_Click);
-            // 
-            // lblPielMixta
-            // 
-            this.lblPielMixta.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPielMixta.Location = new System.Drawing.Point(3, 60);
-            this.lblPielMixta.Name = "lblPielMixta";
-            this.lblPielMixta.Size = new System.Drawing.Size(121, 28);
-            this.lblPielMixta.TabIndex = 13;
-            this.lblPielMixta.Text = "PIEL MIXTA";
-            this.lblPielMixta.Click += new System.EventHandler(this.lblPielMixta_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Eleea.Skin.Properties.Resources.usuario;
-            this.pictureBox4.Location = new System.Drawing.Point(1405, 43);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 39);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pcLupa
-            // 
-            this.pcLupa.Image = global::Eleea.Skin.Properties.Resources.lupa;
-            this.pcLupa.Location = new System.Drawing.Point(1257, 41);
-            this.pcLupa.Name = "pcLupa";
-            this.pcLupa.Size = new System.Drawing.Size(39, 39);
-            this.pcLupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcLupa.TabIndex = 13;
-            this.pcLupa.TabStop = false;
-            this.pcLupa.Click += new System.EventHandler(this.pcLupa_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox2.Location = new System.Drawing.Point(1326, 43);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 39);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
             // 
             // FrmTienda
             // 
@@ -217,9 +218,9 @@
             this.pnlContenedor.ResumeLayout(false);
             this.pnlContenedor.PerformLayout();
             this.pnlCategorias.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcPerfil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLupa)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCarrito)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -228,9 +229,9 @@
 
         private System.Windows.Forms.Panel pnlContenido;
         private System.Windows.Forms.Panel pnlContenedor;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pcPerfil;
         private System.Windows.Forms.PictureBox pcLupa;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pcCarrito;
         private System.Windows.Forms.Label lblCategorias;
         private System.Windows.Forms.Label lblTienda;
         private System.Windows.Forms.Label lblInicio;
