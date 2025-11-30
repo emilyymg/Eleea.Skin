@@ -110,12 +110,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PielGrasa.resx">
       <DependentUpon>PielGrasa.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="PielMixta.resx">
       <DependentUpon>PielMixta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PielSeca.resx">
       <DependentUpon>PielSeca.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -165,7 +167,88 @@
     <None Include="Resources\inicioEleea1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\DefaultImage1.png" />
+    <None Include="Resources\9f5ce2_6d3f9b4acf66402e9b4baa1ef7feee15~mv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51saw5NvgtL._AC_UL200_SR200,200_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51N2YQQI4HL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerave-serum-antiimperfecciones-envase-y-dosificador-960.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avene-cleanance-hydra-crema-calmante-40-ml-3-1440.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3337875597197.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51-eOXst+iL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la-roche-posay-effaclar-gel-limpiador-purificabte-200-ml-1440.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\512E8MKNDjL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61Qnl5KImxL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61oqddOFaCL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71l1Ac+K0zL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71LQCW2GSLL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41Vn2XSt2GL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71Xa8RMrOKL._AC_SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51FIviGzyfL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71Hb13hlogL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61ZqKGwbnaL._AC_SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\512GnjVjAhL._AC_SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\713oujBJJ8L._AC_SX425_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61jQnXndDsL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51S90uTARfS._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61BND6YHxaL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\713ZsHmxJIL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61fa3RGMFgL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51-eOXst+iL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41hFoEyPoTL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71U+qCUYzKL._AC_SY450_.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

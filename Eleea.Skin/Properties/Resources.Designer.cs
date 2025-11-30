@@ -95,7 +95,7 @@ namespace Eleea.Skin.Properties {
         /// </summary>
         public static System.Drawing.Bitmap DefaultImage {
             get {
-                object obj = ResourceManager.GetObject("DefaultImage", resourceCulture);
+                object obj = ResourceManager.GetObject("cerave-serum-antiimperfecciones-envase-y-dosificador-960", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
