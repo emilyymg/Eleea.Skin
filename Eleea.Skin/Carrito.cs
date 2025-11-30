@@ -87,7 +87,7 @@ namespace Eleea.Skin
             {
                 // Devuelve una imagen de marcador de posición si el recurso no se encuentra
                 // Asegúrate de que DefaultImage existe en tus recursos.
-                return Properties.Resources.DefaultImage ?? null;
+                return Properties.Resources.DefaultImage;
             }
         }
     }

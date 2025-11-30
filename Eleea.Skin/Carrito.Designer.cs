@@ -31,12 +31,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnComprar = new System.Windows.Forms.Button();
-            this.pcImagen = new System.Windows.Forms.PictureBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.flowPanelItems = new System.Windows.Forms.FlowLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)(this.pcImagen)).BeginInit();
+            this.pcImagen = new System.Windows.Forms.PictureBox();
             this.flowPanelItems.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcImagen)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -73,14 +73,6 @@
             this.btnComprar.Text = "COMPRAR";
             this.btnComprar.UseVisualStyleBackColor = false;
             // 
-            // pcImagen
-            // 
-            this.pcImagen.Location = new System.Drawing.Point(3, 3);
-            this.pcImagen.Name = "pcImagen";
-            this.pcImagen.Size = new System.Drawing.Size(195, 173);
-            this.pcImagen.TabIndex = 0;
-            this.pcImagen.TabStop = false;
-            // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
@@ -111,6 +103,16 @@
             this.flowPanelItems.Size = new System.Drawing.Size(1117, 173);
             this.flowPanelItems.TabIndex = 12;
             // 
+            // pcImagen
+            // 
+            this.pcImagen.Image = global::Eleea.Skin.Properties.Resources.DefaultImage;
+            this.pcImagen.Location = new System.Drawing.Point(3, 3);
+            this.pcImagen.Name = "pcImagen";
+            this.pcImagen.Size = new System.Drawing.Size(195, 173);
+            this.pcImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcImagen.TabIndex = 0;
+            this.pcImagen.TabStop = false;
+            // 
             // Carrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -122,9 +124,9 @@
             this.Controls.Add(this.label1);
             this.Name = "Carrito";
             this.Size = new System.Drawing.Size(1535, 786);
-            ((System.ComponentModel.ISupportInitialize)(this.pcImagen)).EndInit();
             this.flowPanelItems.ResumeLayout(false);
             this.flowPanelItems.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcImagen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -93,6 +93,16 @@ namespace Eleea.Skin.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DefaultImage {
+            get {
+                object obj = ResourceManager.GetObject("DefaultImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inicioEleea {
             get {
                 object obj = ResourceManager.GetObject("inicioEleea", resourceCulture);
