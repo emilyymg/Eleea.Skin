@@ -37,7 +37,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.lblp1 = new System.Windows.Forms.Label();
             this.btncar8 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
@@ -45,6 +44,7 @@
             this.btncar3 = new System.Windows.Forms.PictureBox();
             this.btncar4 = new System.Windows.Forms.PictureBox();
             this.btncar2 = new System.Windows.Forms.PictureBox();
+            this.lblp1 = new System.Windows.Forms.Label();
             this.btncar1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -186,17 +186,6 @@
             this.label14.TabIndex = 37;
             this.label14.Text = "$209";
             // 
-            // lblp1
-            // 
-            this.lblp1.AutoSize = true;
-            this.lblp1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblp1.Location = new System.Drawing.Point(160, 186);
-            this.lblp1.Name = "lblp1";
-            this.lblp1.Size = new System.Drawing.Size(40, 22);
-            this.lblp1.TabIndex = 14;
-            this.lblp1.Text = "$35";
-            this.lblp1.Click += new System.EventHandler(this.lblp1_Click);
-            // 
             // btncar8
             // 
             this.btncar8.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
@@ -236,7 +225,7 @@
             // btncar5
             // 
             this.btncar5.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.btncar5.Location = new System.Drawing.Point(102, 351);
+            this.btncar5.Location = new System.Drawing.Point(445, 407);
             this.btncar5.Margin = new System.Windows.Forms.Padding(2);
             this.btncar5.Name = "btncar5";
             this.btncar5.Size = new System.Drawing.Size(29, 32);
@@ -280,6 +269,17 @@
             this.btncar2.TabIndex = 26;
             this.btncar2.TabStop = false;
             this.btncar2.Click += new System.EventHandler(this.btncar2_Click);
+            // 
+            // lblp1
+            // 
+            this.lblp1.AutoSize = true;
+            this.lblp1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblp1.Location = new System.Drawing.Point(160, 186);
+            this.lblp1.Name = "lblp1";
+            this.lblp1.Size = new System.Drawing.Size(40, 22);
+            this.lblp1.TabIndex = 14;
+            this.lblp1.Text = "$35";
+            this.lblp1.Click += new System.EventHandler(this.lblp1_Click);
             // 
             // btncar1
             // 
@@ -380,7 +380,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PielSeca";
             this.Size = new System.Drawing.Size(1151, 614);
             this.Load += new System.EventHandler(this.PielSeca_Load);
