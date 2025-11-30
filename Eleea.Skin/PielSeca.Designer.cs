@@ -295,7 +295,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::Eleea.Skin.Properties.Resources._61jQnXndDsL__AC_SY450_;
+            
             this.pictureBox8.Location = new System.Drawing.Point(873, 213);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(183, 133);
@@ -305,7 +305,6 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::Eleea.Skin.Properties.Resources._713oujBJJ8L__AC_SX425_;
             this.pictureBox7.Location = new System.Drawing.Point(618, 213);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(183, 133);
@@ -315,7 +314,6 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Eleea.Skin.Properties.Resources._71U_qCUYzKL__AC_SY450_;
             this.pictureBox6.Location = new System.Drawing.Point(356, 213);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(183, 133);
@@ -325,7 +323,6 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Eleea.Skin.Properties.Resources._41hFoEyPoTL__AC_SY450_;
             this.pictureBox5.Location = new System.Drawing.Point(90, 213);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(183, 133);
@@ -335,7 +332,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Eleea.Skin.Properties.Resources._61fa3RGMFgL__AC_SY300_SX300_QL70_ML2_;
             this.pictureBox4.Location = new System.Drawing.Point(873, 29);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(183, 133);
@@ -345,7 +341,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Eleea.Skin.Properties.Resources._713ZsHmxJIL__AC_SY450_;
             this.pictureBox3.Location = new System.Drawing.Point(618, 29);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(183, 133);
@@ -355,7 +350,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Eleea.Skin.Properties.Resources._61BND6YHxaL__AC_SY450_;
             this.pictureBox2.Location = new System.Drawing.Point(356, 29);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(183, 133);
@@ -365,7 +359,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Eleea.Skin.Properties.Resources._51S90uTARfS__AC_SY300_SX300_QL70_ML2_;
             this.pictureBox1.Location = new System.Drawing.Point(90, 29);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(183, 133);

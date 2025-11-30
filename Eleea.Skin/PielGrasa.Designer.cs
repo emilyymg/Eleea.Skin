@@ -414,7 +414,6 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::Eleea.Skin.Properties.Resources._71LQCW2GSLL__AC_SY450_;
             this.pictureBox12.Location = new System.Drawing.Point(873, 393);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(183, 133);
@@ -424,7 +423,6 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::Eleea.Skin.Properties.Resources._71l1Ac_K0zL__AC_SY450_;
             this.pictureBox11.Location = new System.Drawing.Point(618, 393);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(183, 133);
@@ -434,7 +432,6 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::Eleea.Skin.Properties.Resources._61oqddOFaCL__AC_SY300_SX300_QL70_ML2_;
             this.pictureBox10.Location = new System.Drawing.Point(356, 393);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(183, 133);
@@ -444,7 +441,6 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::Eleea.Skin.Properties.Resources._61Qnl5KImxL__AC_SY300_SX300_QL70_ML2_;
             this.pictureBox9.Location = new System.Drawing.Point(90, 393);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(183, 133);
@@ -454,7 +450,6 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::Eleea.Skin.Properties.Resources._512E8MKNDjL__AC_SY450_;
             this.pictureBox8.Location = new System.Drawing.Point(873, 213);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(183, 133);
@@ -464,7 +459,6 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::Eleea.Skin.Properties.Resources.la_roche_posay_effaclar_gel_limpiador_purificabte_200_ml_1440;
             this.pictureBox7.Location = new System.Drawing.Point(618, 213);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(183, 133);
@@ -474,7 +468,6 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Eleea.Skin.Properties.Resources._51_eOXst_iL__AC_SY300_SX300_QL70_ML2_;
             this.pictureBox6.Location = new System.Drawing.Point(356, 213);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(183, 133);
@@ -484,7 +477,6 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Eleea.Skin.Properties.Resources._3337875597197;
             this.pictureBox5.Location = new System.Drawing.Point(90, 213);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(183, 133);
@@ -494,7 +486,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Eleea.Skin.Properties.Resources.avene_cleanance_hydra_crema_calmante_40_ml_3_1440;
             this.pictureBox4.Location = new System.Drawing.Point(873, 29);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(183, 133);
@@ -504,7 +495,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Eleea.Skin.Properties.Resources.cerave_serum_antiimperfecciones_envase_y_dosificador_960;
             this.pictureBox3.Location = new System.Drawing.Point(618, 29);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(183, 133);
@@ -514,7 +504,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Eleea.Skin.Properties.Resources._51saw5NvgtL__AC_UL200_SR200_200_;
             this.pictureBox2.Location = new System.Drawing.Point(356, 29);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(183, 133);
@@ -524,7 +513,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Eleea.Skin.Properties.Resources._9f5ce2_6d3f9b4acf66402e9b4baa1ef7feee15_mv2;
             this.pictureBox1.Location = new System.Drawing.Point(90, 29);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(183, 133);

@@ -110,12 +110,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PielGrasa.resx">
       <DependentUpon>PielGrasa.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="PielMixta.resx">
       <DependentUpon>PielMixta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PielSeca.resx">
       <DependentUpon>PielSeca.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
