@@ -32,7 +32,15 @@ namespace Eleea.Skin
             // Opcional: Si necesitas asegurarte de que el panel no cambie su tamaño automáticamente:
             panel1.AutoSize = false;
         }
-       
-        
+
+        private void btncar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncar2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

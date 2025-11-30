@@ -41,8 +41,8 @@
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.btncar2 = new System.Windows.Forms.PictureBox();
+            this.btncar1 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -77,8 +77,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -128,9 +128,9 @@
             this.panel1.Controls.Add(this.pictureBox17);
             this.panel1.Controls.Add(this.pictureBox16);
             this.panel1.Controls.Add(this.pictureBox15);
-            this.panel1.Controls.Add(this.pictureBox14);
+            this.panel1.Controls.Add(this.btncar2);
             this.panel1.Controls.Add(this.lblp1);
-            this.panel1.Controls.Add(this.pictureBox13);
+            this.panel1.Controls.Add(this.btncar1);
             this.panel1.Controls.Add(this.pictureBox12);
             this.panel1.Controls.Add(this.pictureBox11);
             this.panel1.Controls.Add(this.pictureBox10);
@@ -268,27 +268,29 @@
             this.pictureBox15.TabIndex = 27;
             this.pictureBox15.TabStop = false;
             // 
-            // pictureBox14
+            // btncar2
             // 
-            this.pictureBox14.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox14.Location = new System.Drawing.Point(375, 176);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 26;
-            this.pictureBox14.TabStop = false;
+            this.btncar2.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar2.Location = new System.Drawing.Point(375, 176);
+            this.btncar2.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar2.Name = "btncar2";
+            this.btncar2.Size = new System.Drawing.Size(29, 32);
+            this.btncar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar2.TabIndex = 26;
+            this.btncar2.TabStop = false;
+            this.btncar2.Click += new System.EventHandler(this.btncar2_Click);
             // 
-            // pictureBox13
+            // btncar1
             // 
-            this.pictureBox13.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox13.Location = new System.Drawing.Point(102, 176);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 13;
-            this.pictureBox13.TabStop = false;
+            this.btncar1.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar1.Location = new System.Drawing.Point(102, 176);
+            this.btncar1.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar1.Name = "btncar1";
+            this.btncar1.Size = new System.Drawing.Size(29, 32);
+            this.btncar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar1.TabIndex = 13;
+            this.btncar1.TabStop = false;
+            this.btncar1.Click += new System.EventHandler(this.btncar1_Click);
             // 
             // pictureBox12
             // 
@@ -543,8 +545,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -588,9 +590,9 @@
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox btncar2;
         private System.Windows.Forms.Label lblp1;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox btncar1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label13;
