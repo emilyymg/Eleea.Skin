@@ -73,6 +73,16 @@ namespace Eleea.Skin.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _41hFoEyPoTL__AC_SY450_ {
+            get {
+                object obj = ResourceManager.GetObject("41hFoEyPoTL._AC_SY450_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _41Vn2XSt2GL__AC_SY300_SX300_QL70_ML2_ {
             get {
                 object obj = ResourceManager.GetObject("41Vn2XSt2GL._AC_SY300_SX300_QL70_ML2_", resourceCulture);
@@ -86,6 +96,16 @@ namespace Eleea.Skin.Properties {
         internal static System.Drawing.Bitmap _51_eOXst_iL__AC_SY300_SX300_QL70_ML2_ {
             get {
                 object obj = ResourceManager.GetObject("51-eOXst+iL._AC_SY300_SX300_QL70_ML2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _51_eOXst_iL__AC_SY450_ {
+            get {
+                object obj = ResourceManager.GetObject("51-eOXst+iL._AC_SY450_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +153,39 @@ namespace Eleea.Skin.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _51S90uTARfS__AC_SY300_SX300_QL70_ML2_ {
+            get {
+                object obj = ResourceManager.GetObject("51S90uTARfS._AC_SY300_SX300_QL70_ML2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _51saw5NvgtL__AC_UL200_SR200_200_ {
             get {
                 object obj = ResourceManager.GetObject("51saw5NvgtL._AC_UL200_SR200,200_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _61BND6YHxaL__AC_SY450_ {
+            get {
+                object obj = ResourceManager.GetObject("61BND6YHxaL._AC_SY450_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _61fa3RGMFgL__AC_SY300_SX300_QL70_ML2_ {
+            get {
+                object obj = ResourceManager.GetObject("61fa3RGMFgL._AC_SY300_SX300_QL70_ML2_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +243,16 @@ namespace Eleea.Skin.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _713ZsHmxJIL__AC_SY450_ {
+            get {
+                object obj = ResourceManager.GetObject("713ZsHmxJIL._AC_SY450_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _71Hb13hlogL__AC_SY450_ {
             get {
                 object obj = ResourceManager.GetObject("71Hb13hlogL._AC_SY450_", resourceCulture);
@@ -216,6 +276,16 @@ namespace Eleea.Skin.Properties {
         internal static System.Drawing.Bitmap _71LQCW2GSLL__AC_SY450_ {
             get {
                 object obj = ResourceManager.GetObject("71LQCW2GSLL._AC_SY450_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _71U_qCUYzKL__AC_SY450_ {
+            get {
+                object obj = ResourceManager.GetObject("71U+qCUYzKL._AC_SY450_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

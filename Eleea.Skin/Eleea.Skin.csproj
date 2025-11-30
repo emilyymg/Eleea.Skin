@@ -227,5 +227,26 @@
   <ItemGroup>
     <None Include="Resources\61jQnXndDsL._AC_SY450_.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51S90uTARfS._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61BND6YHxaL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\713ZsHmxJIL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61fa3RGMFgL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51-eOXst+iL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41hFoEyPoTL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71U+qCUYzKL._AC_SY450_.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
