@@ -30,18 +30,29 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblp1 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.btncar12 = new System.Windows.Forms.PictureBox();
+            this.btncar11 = new System.Windows.Forms.PictureBox();
+            this.btncar10 = new System.Windows.Forms.PictureBox();
+            this.btncar9 = new System.Windows.Forms.PictureBox();
+            this.btncar8 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.btncar5 = new System.Windows.Forms.PictureBox();
+            this.btncar3 = new System.Windows.Forms.PictureBox();
+            this.btncar4 = new System.Windows.Forms.PictureBox();
             this.btncar2 = new System.Windows.Forms.PictureBox();
+            this.lblp1 = new System.Windows.Forms.Label();
             this.btncar1 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -55,28 +66,17 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -118,16 +118,16 @@
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.pictureBox24);
-            this.panel1.Controls.Add(this.pictureBox23);
-            this.panel1.Controls.Add(this.pictureBox22);
-            this.panel1.Controls.Add(this.pictureBox21);
-            this.panel1.Controls.Add(this.pictureBox20);
+            this.panel1.Controls.Add(this.btncar12);
+            this.panel1.Controls.Add(this.btncar11);
+            this.panel1.Controls.Add(this.btncar10);
+            this.panel1.Controls.Add(this.btncar9);
+            this.panel1.Controls.Add(this.btncar8);
             this.panel1.Controls.Add(this.pictureBox19);
             this.panel1.Controls.Add(this.pictureBox18);
-            this.panel1.Controls.Add(this.pictureBox17);
-            this.panel1.Controls.Add(this.pictureBox16);
-            this.panel1.Controls.Add(this.pictureBox15);
+            this.panel1.Controls.Add(this.btncar5);
+            this.panel1.Controls.Add(this.btncar3);
+            this.panel1.Controls.Add(this.btncar4);
             this.panel1.Controls.Add(this.btncar2);
             this.panel1.Controls.Add(this.lblp1);
             this.panel1.Controls.Add(this.btncar1);
@@ -143,75 +143,180 @@
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(0, 138);
+            this.panel1.Location = new System.Drawing.Point(3, 14);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1151, 632);
             this.panel1.TabIndex = 3;
             // 
-            // lblp1
+            // label9
             // 
-            this.lblp1.AutoSize = true;
-            this.lblp1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblp1.Location = new System.Drawing.Point(160, 186);
-            this.lblp1.Name = "lblp1";
-            this.lblp1.Size = new System.Drawing.Size(50, 22);
-            this.lblp1.TabIndex = 14;
-            this.lblp1.Text = "$365";
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(159, 539);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(50, 22);
+            this.label9.TabIndex = 47;
+            this.label9.Text = "$111";
             // 
-            // pictureBox24
+            // label7
             // 
-            this.pictureBox24.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox24.Location = new System.Drawing.Point(888, 531);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 36;
-            this.pictureBox24.TabStop = false;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(424, 542);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(50, 22);
+            this.label7.TabIndex = 46;
+            this.label7.Text = "$235";
             // 
-            // pictureBox23
+            // label6
             // 
-            this.pictureBox23.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox23.Location = new System.Drawing.Point(638, 531);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 35;
-            this.pictureBox23.TabStop = false;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(698, 539);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(50, 22);
+            this.label6.TabIndex = 45;
+            this.label6.Text = "$665";
             // 
-            // pictureBox22
+            // label5
             // 
-            this.pictureBox22.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox22.Location = new System.Drawing.Point(375, 531);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 34;
-            this.pictureBox22.TabStop = false;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(955, 539);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 22);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "$160";
             // 
-            // pictureBox21
+            // label17
             // 
-            this.pictureBox21.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox21.Location = new System.Drawing.Point(102, 531);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 33;
-            this.pictureBox21.TabStop = false;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(955, 361);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(50, 22);
+            this.label17.TabIndex = 43;
+            this.label17.Text = "$406";
             // 
-            // pictureBox20
+            // label16
             // 
-            this.pictureBox20.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox20.Location = new System.Drawing.Point(888, 351);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 32;
-            this.pictureBox20.TabStop = false;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(698, 361);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(50, 22);
+            this.label16.TabIndex = 42;
+            this.label16.Text = "$300";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(159, 361);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(50, 22);
+            this.label8.TabIndex = 41;
+            this.label8.Text = "$280";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(424, 361);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 22);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "$339";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(955, 186);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(50, 22);
+            this.label15.TabIndex = 39;
+            this.label15.Text = "$127";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(698, 186);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(50, 22);
+            this.label13.TabIndex = 38;
+            this.label13.Text = "$241";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(424, 186);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(50, 22);
+            this.label14.TabIndex = 37;
+            this.label14.Text = "$677";
+            // 
+            // btncar12
+            // 
+            this.btncar12.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar12.Location = new System.Drawing.Point(888, 531);
+            this.btncar12.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar12.Name = "btncar12";
+            this.btncar12.Size = new System.Drawing.Size(29, 32);
+            this.btncar12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar12.TabIndex = 36;
+            this.btncar12.TabStop = false;
+            this.btncar12.Click += new System.EventHandler(this.btncar12_Click);
+            // 
+            // btncar11
+            // 
+            this.btncar11.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar11.Location = new System.Drawing.Point(638, 531);
+            this.btncar11.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar11.Name = "btncar11";
+            this.btncar11.Size = new System.Drawing.Size(29, 32);
+            this.btncar11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar11.TabIndex = 35;
+            this.btncar11.TabStop = false;
+            this.btncar11.Click += new System.EventHandler(this.btncar11_Click);
+            // 
+            // btncar10
+            // 
+            this.btncar10.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar10.Location = new System.Drawing.Point(375, 531);
+            this.btncar10.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar10.Name = "btncar10";
+            this.btncar10.Size = new System.Drawing.Size(29, 32);
+            this.btncar10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar10.TabIndex = 34;
+            this.btncar10.TabStop = false;
+            this.btncar10.Click += new System.EventHandler(this.btncar10_Click);
+            // 
+            // btncar9
+            // 
+            this.btncar9.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar9.Location = new System.Drawing.Point(102, 531);
+            this.btncar9.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar9.Name = "btncar9";
+            this.btncar9.Size = new System.Drawing.Size(29, 32);
+            this.btncar9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar9.TabIndex = 33;
+            this.btncar9.TabStop = false;
+            this.btncar9.Click += new System.EventHandler(this.btncar9_Click);
+            // 
+            // btncar8
+            // 
+            this.btncar8.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar8.Location = new System.Drawing.Point(888, 351);
+            this.btncar8.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar8.Name = "btncar8";
+            this.btncar8.Size = new System.Drawing.Size(29, 32);
+            this.btncar8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar8.TabIndex = 32;
+            this.btncar8.TabStop = false;
+            this.btncar8.Click += new System.EventHandler(this.btncar8_Click);
             // 
             // pictureBox19
             // 
@@ -223,6 +328,7 @@
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 31;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.pictureBox19_Click);
             // 
             // pictureBox18
             // 
@@ -235,38 +341,41 @@
             this.pictureBox18.TabIndex = 30;
             this.pictureBox18.TabStop = false;
             // 
-            // pictureBox17
+            // btncar5
             // 
-            this.pictureBox17.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox17.Location = new System.Drawing.Point(102, 351);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 29;
-            this.pictureBox17.TabStop = false;
+            this.btncar5.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar5.Location = new System.Drawing.Point(102, 351);
+            this.btncar5.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar5.Name = "btncar5";
+            this.btncar5.Size = new System.Drawing.Size(29, 32);
+            this.btncar5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar5.TabIndex = 29;
+            this.btncar5.TabStop = false;
+            this.btncar5.Click += new System.EventHandler(this.btncar5_Click);
             // 
-            // pictureBox16
+            // btncar3
             // 
-            this.pictureBox16.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox16.Location = new System.Drawing.Point(638, 176);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 28;
-            this.pictureBox16.TabStop = false;
+            this.btncar3.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar3.Location = new System.Drawing.Point(638, 176);
+            this.btncar3.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar3.Name = "btncar3";
+            this.btncar3.Size = new System.Drawing.Size(29, 32);
+            this.btncar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar3.TabIndex = 28;
+            this.btncar3.TabStop = false;
+            this.btncar3.Click += new System.EventHandler(this.btncar3_Click);
             // 
-            // pictureBox15
+            // btncar4
             // 
-            this.pictureBox15.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox15.Location = new System.Drawing.Point(888, 176);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(29, 32);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 27;
-            this.pictureBox15.TabStop = false;
+            this.btncar4.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.btncar4.Location = new System.Drawing.Point(888, 176);
+            this.btncar4.Margin = new System.Windows.Forms.Padding(2);
+            this.btncar4.Name = "btncar4";
+            this.btncar4.Size = new System.Drawing.Size(29, 32);
+            this.btncar4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncar4.TabIndex = 27;
+            this.btncar4.TabStop = false;
+            this.btncar4.Click += new System.EventHandler(this.btncar4_Click);
             // 
             // btncar2
             // 
@@ -279,6 +388,16 @@
             this.btncar2.TabIndex = 26;
             this.btncar2.TabStop = false;
             this.btncar2.Click += new System.EventHandler(this.btncar2_Click);
+            // 
+            // lblp1
+            // 
+            this.lblp1.AutoSize = true;
+            this.lblp1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblp1.Location = new System.Drawing.Point(160, 186);
+            this.lblp1.Name = "lblp1";
+            this.lblp1.Size = new System.Drawing.Size(50, 22);
+            this.lblp1.TabIndex = 14;
+            this.lblp1.Text = "$365";
             // 
             // btncar1
             // 
@@ -412,116 +531,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(424, 186);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(50, 22);
-            this.label14.TabIndex = 37;
-            this.label14.Text = "$677";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(698, 186);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(50, 22);
-            this.label13.TabIndex = 38;
-            this.label13.Text = "$241";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(955, 186);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 22);
-            this.label15.TabIndex = 39;
-            this.label15.Text = "$127";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(424, 361);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 22);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "$339";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(159, 361);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(50, 22);
-            this.label8.TabIndex = 41;
-            this.label8.Text = "$280";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(698, 361);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(50, 22);
-            this.label16.TabIndex = 42;
-            this.label16.Text = "$300";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(955, 361);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(50, 22);
-            this.label17.TabIndex = 43;
-            this.label17.Text = "$406";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(955, 539);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 22);
-            this.label5.TabIndex = 44;
-            this.label5.Text = "$160";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(698, 539);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 22);
-            this.label6.TabIndex = 45;
-            this.label6.Text = "$665";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(424, 542);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 22);
-            this.label7.TabIndex = 46;
-            this.label7.Text = "$235";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(159, 539);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 22);
-            this.label9.TabIndex = 47;
-            this.label9.Text = "$111";
-            // 
             // PielGrasa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -535,16 +544,16 @@
             this.Load += new System.EventHandler(this.PielGrasa_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncar4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -580,16 +589,16 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox btncar12;
+        private System.Windows.Forms.PictureBox btncar11;
+        private System.Windows.Forms.PictureBox btncar10;
+        private System.Windows.Forms.PictureBox btncar9;
+        private System.Windows.Forms.PictureBox btncar8;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox btncar5;
+        private System.Windows.Forms.PictureBox btncar3;
+        private System.Windows.Forms.PictureBox btncar4;
         private System.Windows.Forms.PictureBox btncar2;
         private System.Windows.Forms.Label lblp1;
         private System.Windows.Forms.PictureBox btncar1;
