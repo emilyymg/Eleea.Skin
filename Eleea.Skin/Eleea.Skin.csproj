@@ -203,5 +203,29 @@
   <ItemGroup>
     <None Include="Resources\71LQCW2GSLL._AC_SY450_.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41Vn2XSt2GL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71Xa8RMrOKL._AC_SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51FIviGzyfL._AC_SY300_SX300_QL70_ML2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71Hb13hlogL._AC_SY450_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61ZqKGwbnaL._AC_SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\512GnjVjAhL._AC_SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\713oujBJJ8L._AC_SX425_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61jQnXndDsL._AC_SY450_.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
