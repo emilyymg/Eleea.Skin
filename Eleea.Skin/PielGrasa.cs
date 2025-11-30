@@ -16,5 +16,10 @@ namespace Eleea.Skin
         {
             InitializeComponent();
         }
+
+        private void PielGrasa_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
