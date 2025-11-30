@@ -29,10 +29,14 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dvgCarrito = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.btnComprar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dvgCarrito)).BeginInit();
+            this.pcImagen = new System.Windows.Forms.PictureBox();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblPrecio = new System.Windows.Forms.Label();
+            this.flowPanelItems = new System.Windows.Forms.FlowLayoutPanel();
+            ((System.ComponentModel.ISupportInitialize)(this.pcImagen)).BeginInit();
+            this.flowPanelItems.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -46,26 +50,15 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "CARRITO DE COMPRAS";
             // 
-            // dvgCarrito
+            // lblTotal
             // 
-            this.dvgCarrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgCarrito.Location = new System.Drawing.Point(146, 155);
-            this.dvgCarrito.Name = "dvgCarrito";
-            this.dvgCarrito.RowHeadersWidth = 51;
-            this.dvgCarrito.RowTemplate.Height = 24;
-            this.dvgCarrito.Size = new System.Drawing.Size(1241, 425);
-            this.dvgCarrito.TabIndex = 5;
-            this.dvgCarrito.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgCarrito_CellClick);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Malgun Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(354, 614);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 31);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "TOTAL: ";
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Malgun Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(354, 614);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(95, 31);
+            this.lblTotal.TabIndex = 6;
+            this.lblTotal.Text = "TOTAL: ";
             // 
             // btnComprar
             // 
@@ -80,18 +73,58 @@
             this.btnComprar.Text = "COMPRAR";
             this.btnComprar.UseVisualStyleBackColor = false;
             // 
+            // pcImagen
+            // 
+            this.pcImagen.Location = new System.Drawing.Point(3, 3);
+            this.pcImagen.Name = "pcImagen";
+            this.pcImagen.Size = new System.Drawing.Size(195, 173);
+            this.pcImagen.TabIndex = 0;
+            this.pcImagen.TabStop = false;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(204, 0);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(91, 28);
+            this.lblNombre.TabIndex = 2;
+            this.lblNombre.Text = "Nombre:";
+            // 
+            // lblPrecio
+            // 
+            this.lblPrecio.AutoSize = true;
+            this.lblPrecio.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecio.Location = new System.Drawing.Point(301, 0);
+            this.lblPrecio.Name = "lblPrecio";
+            this.lblPrecio.Size = new System.Drawing.Size(71, 28);
+            this.lblPrecio.TabIndex = 1;
+            this.lblPrecio.Text = "Precio:";
+            // 
+            // flowPanelItems
+            // 
+            this.flowPanelItems.Controls.Add(this.pcImagen);
+            this.flowPanelItems.Controls.Add(this.lblNombre);
+            this.flowPanelItems.Controls.Add(this.lblPrecio);
+            this.flowPanelItems.Location = new System.Drawing.Point(214, 166);
+            this.flowPanelItems.Name = "flowPanelItems";
+            this.flowPanelItems.Size = new System.Drawing.Size(1117, 173);
+            this.flowPanelItems.TabIndex = 12;
+            // 
             // Carrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.flowPanelItems);
             this.Controls.Add(this.btnComprar);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.dvgCarrito);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label1);
             this.Name = "Carrito";
             this.Size = new System.Drawing.Size(1535, 786);
-            ((System.ComponentModel.ISupportInitialize)(this.dvgCarrito)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcImagen)).EndInit();
+            this.flowPanelItems.ResumeLayout(false);
+            this.flowPanelItems.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,8 +133,11 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dvgCarrito;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Button btnComprar;
+        private System.Windows.Forms.PictureBox pcImagen;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblPrecio;
+        private System.Windows.Forms.FlowLayoutPanel flowPanelItems;
     }
 }
