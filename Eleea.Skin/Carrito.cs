@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace Eleea.Skin
 {
-    public partial class Inicio : UserControl
+    public partial class Carrito : UserControl
     {
-        public Inicio()
+        public Carrito()
         {
             InitializeComponent();
         }
 
+        private void dvgCarrito_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

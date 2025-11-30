@@ -36,20 +36,19 @@
             this.lblPielMixta = new System.Windows.Forms.Label();
             this.lblPielGrasa = new System.Windows.Forms.Label();
             this.lblPielSeca = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pcPerfil = new System.Windows.Forms.PictureBox();
             this.pcLupa = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pcCarrito = new System.Windows.Forms.PictureBox();
             this.lblCategorias = new System.Windows.Forms.Label();
             this.lblTienda = new System.Windows.Forms.Label();
             this.lblInicio = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.pnlCarro = new System.Windows.Forms.Panel();
             this.pnlContenedor.SuspendLayout();
             this.pnlCategorias.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcPerfil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLupa)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCarrito)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlContenido
@@ -62,12 +61,11 @@
             // pnlContenedor
             // 
             this.pnlContenedor.BackColor = System.Drawing.Color.White;
-            this.pnlContenedor.Controls.Add(this.pnlCarro);
             this.pnlContenedor.Controls.Add(this.txtBuscar);
             this.pnlContenedor.Controls.Add(this.pnlCategorias);
-            this.pnlContenedor.Controls.Add(this.pictureBox4);
+            this.pnlContenedor.Controls.Add(this.pcPerfil);
             this.pnlContenedor.Controls.Add(this.pcLupa);
-            this.pnlContenedor.Controls.Add(this.pictureBox2);
+            this.pnlContenedor.Controls.Add(this.pcCarrito);
             this.pnlContenedor.Controls.Add(this.lblCategorias);
             this.pnlContenedor.Controls.Add(this.lblTienda);
             this.pnlContenedor.Controls.Add(this.lblInicio);
@@ -130,15 +128,15 @@
             this.lblPielSeca.Text = "PIEL SECA";
             this.lblPielSeca.Click += new System.EventHandler(this.lblPielSeca_Click);
             // 
-            // pictureBox4
+            // pcPerfil
             // 
-            this.pictureBox4.Image = global::Eleea.Skin.Properties.Resources.usuario;
-            this.pictureBox4.Location = new System.Drawing.Point(1405, 43);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 39);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
+            this.pcPerfil.Image = global::Eleea.Skin.Properties.Resources.usuario;
+            this.pcPerfil.Location = new System.Drawing.Point(1405, 43);
+            this.pcPerfil.Name = "pcPerfil";
+            this.pcPerfil.Size = new System.Drawing.Size(39, 39);
+            this.pcPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcPerfil.TabIndex = 14;
+            this.pcPerfil.TabStop = false;
             // 
             // pcLupa
             // 
@@ -151,15 +149,16 @@
             this.pcLupa.TabStop = false;
             this.pcLupa.Click += new System.EventHandler(this.pcLupa_Click);
             // 
-            // pictureBox2
+            // pcCarrito
             // 
-            this.pictureBox2.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
-            this.pictureBox2.Location = new System.Drawing.Point(1326, 43);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 39);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.pcCarrito.Image = global::Eleea.Skin.Properties.Resources.carrito_de_compras;
+            this.pcCarrito.Location = new System.Drawing.Point(1326, 43);
+            this.pcCarrito.Name = "pcCarrito";
+            this.pcCarrito.Size = new System.Drawing.Size(39, 39);
+            this.pcCarrito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcCarrito.TabIndex = 12;
+            this.pcCarrito.TabStop = false;
+            this.pcCarrito.Click += new System.EventHandler(this.pcCarrito_Click);
             // 
             // lblCategorias
             // 
@@ -199,19 +198,12 @@
             this.label1.Size = new System.Drawing.Size(273, 53);
             this.label1.TabIndex = 9;
             this.label1.Text = "ELEEA SKIN";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // timer1
             // 
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
-            // pnlCarro
-            // 
-            this.pnlCarro.Location = new System.Drawing.Point(1326, 83);
-            this.pnlCarro.Name = "pnlCarro";
-            this.pnlCarro.Size = new System.Drawing.Size(200, 100);
-            this.pnlCarro.TabIndex = 2;
             // 
             // FrmTienda
             // 
@@ -226,9 +218,9 @@
             this.pnlContenedor.ResumeLayout(false);
             this.pnlContenedor.PerformLayout();
             this.pnlCategorias.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcPerfil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLupa)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCarrito)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -237,9 +229,9 @@
 
         private System.Windows.Forms.Panel pnlContenido;
         private System.Windows.Forms.Panel pnlContenedor;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pcPerfil;
         private System.Windows.Forms.PictureBox pcLupa;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pcCarrito;
         private System.Windows.Forms.Label lblCategorias;
         private System.Windows.Forms.Label lblTienda;
         private System.Windows.Forms.Label lblInicio;
@@ -250,7 +242,6 @@
         private System.Windows.Forms.Label lblPielMixta;
         private System.Windows.Forms.Label lblPielGrasa;
         private System.Windows.Forms.Label lblPielSeca;
-        private System.Windows.Forms.Panel pnlCarro;
     }
 }
 

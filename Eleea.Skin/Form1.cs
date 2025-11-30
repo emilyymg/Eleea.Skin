@@ -63,7 +63,7 @@ namespace Eleea.Skin
 
         private void lblInicio_Click(object sender, EventArgs e)
         {
-            CargarUC(new Inicio());
+            CargarUC(new PantallaPrincipal());
         }
 
         private void lblCategorias_Click(object sender, EventArgs e)
@@ -75,12 +75,6 @@ namespace Eleea.Skin
         {
             CargarUC(new PielSeca());
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            CargarUC(new PantallaPrincipal());
-        }
-
         private void lblPielGrasa_Click(object sender, EventArgs e)
         {
             CargarUC(new PielGrasa());
@@ -90,5 +84,17 @@ namespace Eleea.Skin
         {
             CargarUC(new PielMixta());
         }
+
+        private void pcCarrito_Click(object sender, EventArgs e)
+        {
+            CargarUC(new Carrito());
+        }
+    }
+    public class Producto
+    {
+        public string Nombre { get; set; }
+        public decimal Precio { get; set; }
+        public string Categoria { get; set; }
+        public int Cantidad { get; set; }
     }
 }
